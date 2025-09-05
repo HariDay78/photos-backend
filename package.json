@@ -1,42 +1,16 @@
 {
-  "name": "photos-backend",
-  "version": "0.1.0",
-  "private": true,
-  "description": "A Strapi application",
+  "name": "starter-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "type": "module",
   "scripts": {
-    "build": "strapi build",
-    "console": "strapi console",
-    "deploy": "strapi deploy",
-    "dev": "strapi develop",
-    "develop": "strapi develop",
-    "start": "strapi start",
-    "strapi": "strapi",
-    "upgrade": "npx @strapi/upgrade latest",
-    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+    "format": "prettier --write ."
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.23.3",
-    "@strapi/plugin-users-permissions": "5.23.3",
-    "@strapi/strapi": "5.23.3",
-    "better-sqlite3": "11.3.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.0.0",
-    "strapi-plugin-imagekit": "^1.0.2",
-    "styled-components": "^6.0.0"
+    "node-appwrite": "^14.1.0"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "typescript": "^5"
-  },
-  "engines": {
-    "node": ">=18.0.0 <=22.x.x",
-    "npm": ">=6.0.0"
-  },
-  "strapi": {
-    "uuid": "8fd9b97a-7397-48e4-9a42-e4b25c569dcf",
-    "installId": "9912ecdc567cc2e3354ca9b79c47ff5a28a411c40920a68d26413c18cfcf9c3c"
+    "prettier": "^3.2.5"
   }
 }
