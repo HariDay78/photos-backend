@@ -8,5 +8,10 @@ export default (config: UserConfig) => {
         '@': '/src',
       },
     },
+    server: {
+      allowedHosts: [
+        '1337-shubzz02-photosbackend-e4wlwxnxtt5.ws-us121.gitpod.io'
+      ]
+    }
   });
 };
